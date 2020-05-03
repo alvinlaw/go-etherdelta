@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	token "github.com/alvinlaw/go-etherdelta/helpers/token"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/alvinlaw/go-ethereum/accounts/abi/bind"
+	"github.com/alvinlaw/go-ethereum/common"
+	"github.com/alvinlaw/go-ethereum/core/types"
 	"github.com/shopspring/decimal"
 )
 
