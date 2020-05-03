@@ -2,11 +2,11 @@
 
 > [EtherDelta](https://etherdelta.com/) client for [Golang](https://golang.org/).
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/coincircle/go-etherdelta/master/LICENSE.md) [![Go Report Card](https://goreportcard.com/badge/github.com/coincircle/go-etherdelta?)](https://goreportcard.com/report/github.com/coincircle/go-etherdelta) [![GoDoc](https://godoc.org/github.com/coincircle/go-etherdelta?status.svg)](https://godoc.org/github.com/coincircle/go-etherdelta)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/coincircle/go-etherdelta/master/LICENSE.md) [![Go Report Card](https://goreportcard.com/badge/github.com/alvinlaw/go-etherdelta?)](https://goreportcard.com/report/github.com/alvinlaw/go-etherdelta) [![GoDoc](https://godoc.org/github.com/alvinlaw/go-etherdelta?status.svg)](https://godoc.org/github.com/alvinlaw/go-etherdelta)
 
 ## Documentation
 
-[https://godoc.org/github.com/coincircle/go-etherdelta](https://godoc.org/github.com/coincircle/go-etherdelta)
+[https://godoc.org/github.com/alvinlaw/go-etherdelta](https://godoc.org/github.com/alvinlaw/go-etherdelta)
 
 ## Getting started
 
@@ -16,7 +16,7 @@ package main
 import (
 	"log"
 
-	ed "github.com/coincircle/go-etherdelta"
+	ed "github.com/alvinlaw/go-etherdelta"
 )
 
 func main() {

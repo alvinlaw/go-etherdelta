@@ -15,9 +15,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	contracts "github.com/coincircle/go-etherdelta/contracts"
-	"github.com/coincircle/go-etherdelta/helpers"
-	"github.com/coincircle/go-etherdelta/utils"
+	contracts "github.com/alvinlaw/go-etherdelta/contracts"
+	"github.com/alvinlaw/go-etherdelta/helpers"
+	"github.com/alvinlaw/go-etherdelta/utils"
 	"github.com/coocood/freecache"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
