@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/alvinlaw/go-ethereum"
+	"github.com/alvinlaw/go-ethereum/accounts/abi"
+	"github.com/alvinlaw/go-ethereum/accounts/abi/bind"
+	"github.com/alvinlaw/go-ethereum/common"
+	"github.com/alvinlaw/go-ethereum/core/types"
+	"github.com/alvinlaw/go-ethereum/event"
 )
 
 // ERC20ABI is the input ABI used to generate the binding from.

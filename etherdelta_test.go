@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/alvinlaw/go-etherdelta/helpers"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	solsha3 "github.com/miguelmota/go-solidity-sha3"
+	"github.com/alvinlaw/go-ethereum/accounts/abi/bind"
+	"github.com/alvinlaw/go-ethereum/common"
+	"github.com/alvinlaw/go-ethereum/crypto"
+	solsha3 "github.com/alvinlaw/go-solidity-sha3"
 	"github.com/shopspring/decimal"
 )
 

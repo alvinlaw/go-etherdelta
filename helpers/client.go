@@ -3,7 +3,7 @@ package helpers
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/alvinlaw/go-ethereum/ethclient"
 )
 
 // Client client
