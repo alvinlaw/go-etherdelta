@@ -3,16 +3,16 @@ package main
 import (
 	"log"
 
-	ed "github.com/coincircle/go-etherdelta"
+	ed "github.com/alvinlaw/go-etherdelta"
 )
 
 func main() {
 	service := ed.New(&ed.Options{
-		ProviderURI: "wss://mainnet.infura.io/ws",
+		ProviderURI: "https://cloudflare-eth.com",
 	})
 
 	orders, err := service.GetOrderBook(&ed.GetOrderBookOpts{
-		TokenAddress: "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+		TokenAddress: "0x8f3470a7388c05ee4e7af3d01d8c722b0ff52374",
 	})
 
 	if err != nil {

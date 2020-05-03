@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"strconv"
 
-	token "github.com/coincircle/go-etherdelta/helpers/token"
+	token "github.com/alvinlaw/go-etherdelta/helpers/token"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

@@ -9,7 +9,7 @@ import (
 // Client client
 var Client *ethclient.Client
 
-var defaultProviderURI = "wss://mainnet.infura.io/ws"
+var defaultProviderURI = "https://cloudflare-eth.com"
 
 // SetClientProviderURI ETH provider client URI
 func SetClientProviderURI(providerURI string) {

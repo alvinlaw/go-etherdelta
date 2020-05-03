@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coincircle/go-etherdelta/helpers"
+	"github.com/alvinlaw/go-etherdelta/helpers"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -22,7 +22,7 @@ var s *Service
 
 func init() {
 	s = New(&Options{
-		ProviderURI: "wss://mainnet.infura.io/ws",
+		ProviderURI: "https://cloudflare-eth.com",
 	})
 }
 
